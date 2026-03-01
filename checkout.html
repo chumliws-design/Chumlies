@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopHub - Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <h2 class="navbar-title">ShopHub</h2>
+        <div class="navbar-right">
+            <a href="inventory.html" class="btn btn-secondary">Continue Shopping</a>
+            <button id="logout-btn" class="btn-logout">Logout</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Shopping Cart</h1>
+        
+        <div id="cart-empty" class="empty-message">
+            <p>Your cart is empty</p>
+            <a href="inventory.html" class="btn btn-primary">Start Shopping</a>
+        </div>
+
+        <div id="cart-content" style="display: none;">
+            <div class="cart-items" id="cartItems"></div>
+            
+            <div class="cart-summary">
+                <h3>Order Summary</h3>
+                <div class="summary-row">
+                    <span>Subtotal:</span>
+                    <span id="subtotal">$0.00</span>
+                </div>
+                <div class="summary-row">
+                    <span>Tax (10%):</span>
+                    <span id="tax">$0.00</span>
+                </div>
+                <div class="summary-row total">
+                    <span>Total:</span>
+                    <span id="total">$0.00</span>
+                </div>
+                <a href="checkout.html" class="btn btn-primary btn-full">Proceed to Checkout</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
