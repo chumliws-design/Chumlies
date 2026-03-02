@@ -3,7 +3,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="style.css" />
-    <title>https://chumlies-garage.netlify.app/about.html</title>
+    <title>Chumlies Garage - Home</title>
 <style>
 body
 {
